@@ -1,3 +1,6 @@
 to push a file to git you need the following commands $ git push -u origin master
 you also need to link your local git to a git hub repository to do so you need to add $ git remote add origin https:://github.com/Lion-Ga92/sample_git.git
+please remember to link the git hub ripositories first after initializing an empty local git.
+to do so you need to first init in your terminal
+create the file and work on it. add to staging and then commit before moving to git hub where you can create a new ripository and then after choosing the safety measures you can copy and paste the commands to link and push your committed file to the git hub rip
 

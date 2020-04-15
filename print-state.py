@@ -35,3 +35,11 @@ print(result)
 print(result2)
 print(result3)
 
+# now i want to add a print string function with one positional argument and keyword argument hopefully it works
+def create_string_2(special_item2, greeting = " Pretty please"):
+    print("I want a " + special_item2 + greeting)
+# ok i accidetally deleted previous comment, i tried calling create_string_2 without defining the keyword argument in function call and i received a syntax error. So i will try to call it again with assignment
+
+create_string_2("Banana", greeting = " Pretty please")
+
+

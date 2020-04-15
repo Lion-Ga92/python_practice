@@ -10,5 +10,13 @@ print (str(age))
 def create_string(special_item):
     print("My favorite food is " + special_item + " and yours?")
 create_string("Apples")
+# we will now add a few conditional statements to this program, this will reinforce the lessons on on flow contron the first will be a simple if then statement. i will check if a value is tue and print it.
+def simple_if_then(num):
+    if num >= 5:
+        return True
+    else:
+        return False
+result = simple_if_then(7)
+print(result)
 
 

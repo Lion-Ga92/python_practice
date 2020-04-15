@@ -1,0 +1,3 @@
+to push a file to git you need the following commands $ git push -u origin master
+you also need to link your local git to a git hub repository to do so you need to add $ git remote add origin https:://github.com/Lion-Ga92/sample_git.git
+

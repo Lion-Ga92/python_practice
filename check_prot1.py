@@ -7,6 +7,7 @@ print("To exit type 'quit'")
 def checklist_func():
     comp_task1_check = input("Have you comp. task 1?")
     global task_1
+    global run
     task_list = []
     if comp_task1_check == "Complete":
         task_list.append((task_1, comp_task1_check))

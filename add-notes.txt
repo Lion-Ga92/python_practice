@@ -4,3 +4,15 @@ please remember to link the git hub ripositories first after initializing an emp
 to do so you need to first init in your terminal
 create the file and work on it. add to staging and then commit before moving to git hub where you can create a new ripository and then after choosing the safety measures you can copy and paste the commands to link and push your committed file to the git hub rip
 
+
+ok so i need to update this file to write some extra notes
+Please NOTE that when you init a local git from the main directory, i.e. the
+content after clicking in the folder
+you will need to add and commit your changes to whatever file you want to push to github from the parent directory
+by adding the Subdirectory where you store all your files and then committing said directory before pushing upstream.
+
+You have been struggling to push just a single file to your remote because there is not git linked to github when you CD into main sub.
+
+but the system is smarter than you so when add and commit the full local repo it only pushes the changes to whatever file you worked on at the time. Whether that means the one file or two files or the entire collection of files of the program. so to recap
+
+when you are working in a program that requires multiple files, and you init a local repo above the main sub of files you will need to push from the main directory.
